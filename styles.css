@@ -1,1 +1,33 @@
 /* your code */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+td,
+th {
+  padding: 10px;
+  padding-right: 80px;
+  font-size: 10px;
+}
+
+#name {
+  padding-right: 170px;
+}
+
+th {
+  color: white;
+  background-color: #205b8e;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #dddddd;
+}
